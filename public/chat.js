@@ -1,6 +1,6 @@
 // Make connection
-const port = process.env.PORT || 4000;
-const socket = io.connect(port);
+
+const socket = io.connect(window.location.hostname);
 
 // Get dom elements
 let message = document.getElementById('message'),
