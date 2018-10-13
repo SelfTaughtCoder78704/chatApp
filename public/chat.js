@@ -1,5 +1,6 @@
 // Make connection
-const socket = io.connect('http://localhost:4000');
+const port = process.env.PORT || 4000;
+const socket = io.connect(port);
 
 // Get dom elements
 let message = document.getElementById('message'),
