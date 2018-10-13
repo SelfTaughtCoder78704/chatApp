@@ -1,0 +1,6 @@
+{
+    "name": "socket_app",
+    "description": "",
+    "keywords" : ["node", "express", "static"]
+
+}
