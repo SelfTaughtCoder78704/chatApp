@@ -1,6 +1,6 @@
 // Make connection
 
-const socket = io.connect(window.location.hostname);
+const socket = io.connect(/*window.location.hostname*/ 'http://localhost:4000');
 
 // Get dom elements
 let message = document.getElementById('message'),
